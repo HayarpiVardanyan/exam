@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  
+}
+button{
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 60px;
+  color: white;
+  box-shadow: inset 0px 0px 25px 0px rgb(141, 70, 255);
+  font-size: 25px;
+  border: none;
+  background-color: #561780;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2100b3;
+}
+.login-btn{
+  padding-top: 20px;
+}
+
+.round {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+.profile{
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+}
+
+.form
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
